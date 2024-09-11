@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Checkbox > get a snapshot of component 1`] = `"<div class="garnet s-5fp75dFFusnP"><input type="checkbox" id="Checkbox" class="s-5fp75dFFusnP"> <label for="name" class="s-5fp75dFFusnP">Checkbox</label></div><!--<Checkbox>-->"`;

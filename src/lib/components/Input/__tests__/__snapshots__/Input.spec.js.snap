@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Input > get a snapshot of component 1`] = `"<div class="garnet-input s--FAEzmeZd6RB"><label for="Input" class="s--FAEzmeZd6RB">Label:</label> <input type="text" id="Input" name="" placeholder="example text" class="s--FAEzmeZd6RB"></div><!--<Input>-->"`;

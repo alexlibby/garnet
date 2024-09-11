@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Tabs > get a snapshot of component 1`] = `"<div class="garnet-tabs s-NPWaW4eOvB4v"><ul class="s-NPWaW4eOvB4v"><li class="active s-NPWaW4eOvB4v" data-testid="tabHeader"><span class="s-NPWaW4eOvB4v">Tab 1</span> </li><li class=" s-NPWaW4eOvB4v" data-testid="tabHeader"><span class="s-NPWaW4eOvB4v">Tab 2</span> </li><li class=" s-NPWaW4eOvB4v" data-testid="tabHeader"><span class="s-NPWaW4eOvB4v">Tab 3</span> </li></ul> <div class="content s-NPWaW4eOvB4v" data-testid="tabContent">This is a test</div></div><!--<Tabs>-->"`;

@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Switch > get a snapshot of component 1`] = `"<label class="switch-container s-8MKu3MLgD13e" for=""><input type="checkbox" class="switch-input s-8MKu3MLgD13e" id="" role="switch"> <span class="switch  s-8MKu3MLgD13e"></span> <span class="switch-label s-8MKu3MLgD13e">Disabled switch with label</span></label><!--<Switch>-->"`;

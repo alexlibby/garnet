@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Tooltip > get a snapshot of component 1`] = `"<div class="garnet-tooltip s-UAv5UqhRPtrl"><div class="s-UAv5UqhRPtrl"><button aria-describedby="tooltip" type="button" class="trigger s-UAv5UqhRPtrl" data-testid="tooltipButton">?</button> <div aria-hidden="true" id="tooltip" role="tooltip" aria-label="more info" class="s-UAv5UqhRPtrl"></div></div></div><!--<Tooltip>-->"`;

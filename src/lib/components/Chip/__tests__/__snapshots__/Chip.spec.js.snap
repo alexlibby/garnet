@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Chip > get a snapshot of component 1`] = `"<div class="garnet s-clkxn-jNAPHQ"><div class="chip s-clkxn-jNAPHQ" data-testid="chip"><span class="s-clkxn-jNAPHQ"></span> </div></div><!--<Chip>-->"`;

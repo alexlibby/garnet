@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for Spinner > get a snapshot of component 1`] = `"<div class="garnet s-9fyBjQp-X91z"><div class="s-9fyBjQp-X91z"><div class="circle s-9fyBjQp-X91z" style="--size: 40px; --color: #733635; --duration: 0.75s;"></div></div>  </div><!--<Spinner>-->"`;

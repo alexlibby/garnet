@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tests for ProgressBar > get a snapshot of component 1`] = `"<div class="garnet s-BCNdu6Y8Uyt_"><div class="labelInsideClass s-BCNdu6Y8Uyt_"><div class="progressbar s-BCNdu6Y8Uyt_" style="width: 0%; background-color: rgb(115, 54, 53);"><span class="progress s-BCNdu6Y8Uyt_">0%</span></div></div></div><!--<ProgressBar>-->"`;
