@@ -49,22 +49,22 @@
     "// ------------------": "// ----------------------------------"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.6.1",
+    "@chromatic-com/storybook": "^2.0.2",
     "@iconify/svelte": "^4.0.2",
-    "@storybook/addon-essentials": "^8.2.9",
-    "@storybook/addon-interactions": "^8.2.9",
-    "@storybook/addon-links": "^8.2.9",
-    "@storybook/blocks": "^8.2.9",
-    "@storybook/react": "^8.2.9",
-    "@storybook/svelte": "^8.2.9",
-    "@storybook/svelte-vite": "^8.2.9",
-    "@storybook/test": "^8.2.9",
+    "@storybook/addon-essentials": "^8.3.0",
+    "@storybook/addon-interactions": "^8.3.0",
+    "@storybook/addon-links": "^8.3.0",
+    "@storybook/blocks": "^8.3.0",
+    "@storybook/react": "^8.3.0",
+    "@storybook/svelte": "^8.3.0",
+    "@storybook/svelte-vite": "^8.3.0",
+    "@storybook/test": "^8.3.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "@vitest/browser": "^2.0.5",
     "@vitest/coverage-istanbul": "^2.0.5",
     "c8": "^10.1.2",
     "jsdom": "^24.1.1",
-    "storybook": "^8.2.9",
+    "storybook": "^8.3.0",
     "storybook-addon-badges": "^1.0.3",
     "svelte": "^4.2.12",
     "vite": "^5.2.0",
@@ -72,7 +72,7 @@
     "vitest-axe": "^1.0.0-pre.3"
   },
   "dependencies": {
-    "@storybook/addon-actions": "^8.2.9",
+    "@storybook/addon-actions": "^8.3.0",
     "@testing-library/svelte": "^5.2.1"
   }
 }
