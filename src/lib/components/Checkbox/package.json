@@ -1,0 +1,21 @@
+{
+  "name": "@alexlibby/garnet-checkbox",
+  "version": "1.0.0-alpha1",
+  "description": "A simple checkbox component from the Garnet library, for Svelte",
+  "main": "./dist/Checkbox-CrEidGRP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garnet/garnet.git"
+  },
+  "keywords": [
+    "svelte",
+    "react",
+    "custom elements",
+    "web components"
+  ],
+  "author": "Alex Libby",
+  "license": "MIT"
+}
