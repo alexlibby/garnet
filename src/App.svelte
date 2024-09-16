@@ -1,14 +1,20 @@
 <main>
   <h1>Garnet UI Web Component Test Page</h1>
 
-  <garnet-spinner     
+  <!-- <garnet-spinner     
     color="#733635"  
     duration= "0.75s"  
     size= "40" 
     variant= "circle">
   </garnet-spinner>
 
-  <garnet-input  label="Text:" placeholder="Enter your text here"></garnet-input>
+  <garnet-input  label="Text:" placeholder="Enter your text here"></garnet-input> -->
+
+  <garnet-checkbox
+    checked = true
+    label = "This is a test">
+  </garnet-checkbox>
+
 </main>
 
 <style>

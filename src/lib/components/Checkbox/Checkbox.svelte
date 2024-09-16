@@ -1,3 +1,5 @@
+<svelte:options customElement="garnet-checkbox" />
+
 <script>
   import { createEventDispatcher } from 'svelte';
 
