@@ -2,7 +2,7 @@
 
 This library accompanies the second edition of my upcoming book, Creating Web Components with Svelte.
 
-## Components available:
+Components available:
 
 ## Checkbox - ![NPM Version](https://img.shields.io/npm/v/%40alexlibby%2Fgarnet-checkbox) 
 
