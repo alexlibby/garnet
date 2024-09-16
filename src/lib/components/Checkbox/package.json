@@ -1,8 +1,8 @@
 {
   "name": "@alexlibby/garnet-checkbox",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0-alpha2",
   "description": "A simple checkbox component from the Garnet library, for Svelte",
-  "main": "./dist/Checkbox-CrEidGRP.js",
+  "main": "./dist/Checkbox-CqtD4XW5.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
