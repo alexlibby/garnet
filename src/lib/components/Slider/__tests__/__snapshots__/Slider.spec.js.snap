@@ -1,3 +1,3 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Tests for Slider > get a snapshot of component 1`] = `"<div class="garnet-slider s-owSWZ-X6GUc2"><div class="range-slider s-owSWZ-X6GUc2"><label for="Slider" class="s-owSWZ-X6GUc2">Please select a value:</label> <input type="range" id="Slider" min="0" max="100" step="1" name="Slider" class="s-owSWZ-X6GUc2"> </div> <div class="selectedValue s-owSWZ-X6GUc2">Value: 50</div></div><!--<Slider>-->"`;
+exports[`Tests for Slider > get a snapshot of component 1`] = `"<div class="garnet-slider svelte-1gda3p6"><div class="range-slider"><label for="Slider">Please select a value:</label> <input type="range" id="Slider" min="0" max="100" step="1" name="Slider" class="svelte-1gda3p6"> </div> <div class="selectedValue svelte-1gda3p6">Value: 50</div></div>"`;
