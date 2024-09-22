@@ -7,6 +7,11 @@ export default defineConfig({
     rollupOptions: {
       input: ["./src/lib/components/Checkbox/Checkbox.svelte"],
     },
+    lib: {
+      entry: "/dist/assets/Checkbox-CWDZuXaz.js",
+      fileName: "Checkbox-CWDZuXaz",
+      formats: ["es", "cjs"],
+    },
   },
   plugins: [
     svelte({
