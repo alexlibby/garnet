@@ -18,6 +18,8 @@
     "coverage:alarm": "vitest run --coverage --dir=src/lib/components/alarm --coverage.all=false",
     "test:alert": "vitest --dir=src/lib/components/alert",
     "coverage:alert": "vitest run --coverage --dir=src/lib/components/alert --coverage.all=false",
+    "test:avatar": "vitest --dir=src/lib/components/avatar",
+    "coverage:avatar": "vitest run --coverage --dir=src/lib/components/avatar --coverage.all=false",
     "test:breadcrumbs": "vitest --dir=src/lib/components/breadcrumbs",
     "coverage:breadcrumbs": "vitest run --coverage --dir=src/lib/components/breadcrumbs --coverage.all=false",
     "test:checkbox": "vitest --dir=src/lib/components/checkbox",
@@ -72,6 +74,7 @@
     "vitest-axe": "^1.0.0-pre.3"
   },
   "dependencies": {
+    "@alexlibby/garnet-checkbox": "^1.0.0-alpha3",
     "@storybook/addon-actions": "^8.3.0",
     "@testing-library/svelte": "^5.2.1"
   }
