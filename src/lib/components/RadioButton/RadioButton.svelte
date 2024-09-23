@@ -28,7 +28,7 @@
     str.toLowerCase().replace(/ /g, "-").replace(/\./g, "");
 </script>
 
-<fieldset id="garnet" {disabled}>
+<fieldset id="garnet-radiobutton" {disabled}>
   <div class="legend" id={`label-${legend}`}>{legend}</div>
   {#each selectOptions as { value, label }}
     <input
@@ -49,7 +49,7 @@
 
   label {
     user-select: none;
-    line-height: 1.2em;
+    line-height: 19px;
   }
 
   .sr-only {
@@ -76,13 +76,13 @@
       content: "";
       position: relative;
       display: inline-block;
-      margin-right: 0.5rem;
-      width: 1rem;
-      height: 1rem;
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
       background: transparent;
       border: 1px solid #ccc;
       border-radius: 50%;
-      top: 0.2rem;
+      top: 3px;
   }
 
   input[type="radio"]:checked + label::before {
@@ -94,10 +94,10 @@
     content: "";
     position: absolute;
     display: inline-block;
-    width: 0.5rem;
-    height: 0.5rem;
-    top: 0.45rem;
-    left: 0.25rem;
+    width: 8px;
+    height: 8px;
+    top: 7px;
+    left: 4px;
     background: #733635;
     border: 1px solid #733635;
     border-radius: 50%;

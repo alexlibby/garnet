@@ -6,7 +6,6 @@
   export let checked = false;
   export let label = 'Checkbox';
   export let disabled = false;
-  export let id="name";
 
   const dispatch = createEventDispatcher();
 
@@ -16,11 +15,11 @@
   }
 </script>
 
-<div class="garnet">
+<div class="garnet-checkbox">
   <input 
     type="checkbox" 
     bind:checked={checked} 
-    id={id}
+    id="name"
     {disabled} 
     on:change={handleChange}  
   />
@@ -30,7 +29,7 @@
 </div>
 
 <style>
-  .garnet {
+  .garnet-checkbox {
     display: flex;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
