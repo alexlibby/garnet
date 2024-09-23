@@ -7,6 +7,7 @@
   export let variant = "";
   export let unit = 'px';
   export let pause = false;
+  
   let durationUnit = duration.match(/[a-zA-Z]/)?.[0] ?? 's';
   let durationNum = duration.replace(/[a-zA-Z]/, '');
   
@@ -14,7 +15,7 @@
   [...Array(size).keys()].map((i) => i + startAt);
 </script>
 
-<div class="garnet">
+<div class="garnet-spinner">
   <!-- Circle spinner -->
   {#if variant == "circle"}
     <div>
@@ -31,7 +32,7 @@
       {#each range(3, 1) as version}
         <div
           class="jumper"
-          style="animation-delay: {(1 / 3) * (version - 1) + 'px'};"
+          style="animation-delay: {(1 / 3) * (version - 1)}s;"
         />
       {/each}
     </div>
@@ -54,7 +55,7 @@
 </div>
 
 <style>
-  .garnet {
+  .garnet-spinner {
     display: flex;
   }
 

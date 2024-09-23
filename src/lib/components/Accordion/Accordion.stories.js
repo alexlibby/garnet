@@ -29,7 +29,7 @@ export const Default = {
     data: [
       {
         title: "Heading 1",
-        text: "aorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, nulla sed lacinia accumsan, ligula arcu interdum urna, eget rhoncus sapien orci scelerisque metus.",
+        text: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada, nulla sed lacinia accumsan, ligula arcu interdum urna, eget rhoncus sapien orci scelerisque metus.",
       },
       {
         title: "Heading 2",
