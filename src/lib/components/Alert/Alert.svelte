@@ -38,7 +38,7 @@
   };
 </script>
 
-<div class="garnet">
+<div class="garnet-alert">
   {#if show}
     <dialog class={classes} role="alertdialog" title="Alert Dialog">
       <div class="icon">

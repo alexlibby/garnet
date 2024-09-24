@@ -11,7 +11,7 @@
 <button data-testid = "buttonDialog" on:click={() => (showDialog = !showDialog)}>Show dialog</button>
 
 {#if showDialog}
-  <div class="garnet">
+  <div class="garnet-dialog">
     {#if showBackground}<div id="background" />{/if}
     <div data-testid="modal" id="modal">
       <div class="header">
@@ -32,7 +32,7 @@
 {/if}
 
 <style>
-  .garnet {
+  .garnet-dialog {
     font-family: Arial, Helvetica, sans-serif;
   }
 
