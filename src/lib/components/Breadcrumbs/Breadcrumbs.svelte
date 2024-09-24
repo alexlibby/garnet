@@ -9,7 +9,7 @@
   import Icon from '@iconify/svelte';
 </script>
 
-<div class="garnet">
+<div class="garnet-breadcrumbs">
    <ul class="breadcrumb">
     {#each breadcrumbItems as breadcrumbIitem, i}
       <li>
@@ -37,7 +37,7 @@
 </div>
 
 <style>
-  .garnet { 
+  .garnet-breadcrumbs { 
     display: flex; 
     font-family: Arial, Helvetica, sans-serif; 
   }

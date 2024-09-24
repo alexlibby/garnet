@@ -5,6 +5,10 @@
   export let items = [];
   export let vertical = false;
 
+  if (items == null) {
+    items = tabItems;
+  }
+
   const handleClick = tabValue => () => (activeTabValue = tabValue);
 
   $: vertical = vertical
@@ -53,10 +57,10 @@
 
   span {
     border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     cursor: pointer;
   }
 
@@ -66,8 +70,8 @@
   }
 
   li.active > span {
-    color: #495057;
-    background-color: pink;
+    color: #ffffff;
+    background-color: #733635;
     border-color: #dee2e6 #dee2e6 #fff;
   }
 

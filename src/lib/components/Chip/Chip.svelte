@@ -2,6 +2,7 @@
 
 <script>
   import DeleteIcon from './DeleteIcon.svelte';
+  import { createEventDispatcher } from 'svelte';
 
   export let active = true;
   export let close = false;
@@ -9,14 +10,17 @@
   export let selected = false;
   export let outline = false;
 
-  const closeChip = () => {
+  const dispatch = createEventDispatcher();
+
+  function onClose(e) {
     active = false;
-  };
+    dispatch('close', e);
+  }
 
   $: outline = outline;
 </script>
 
-<div class="garnet">
+<div class="garnet-chip">
   {#if active}
     <!-- svelte-ignore a11y-no-static-element-interactions -->
     <!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -28,7 +32,7 @@
       >
       <span>{chipContent}</span>
       {#if close}
-        <span class="close" on:click={closeChip}>
+        <span class="close" on:click={onClose}>
           <DeleteIcon />
         </span>
       {/if}
@@ -37,7 +41,7 @@
 </div>
 
 <style>
-  .garnet {
+  .garnet-chip {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
   }
