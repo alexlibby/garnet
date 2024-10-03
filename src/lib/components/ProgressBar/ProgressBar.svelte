@@ -5,7 +5,7 @@
   import { tweened } from 'svelte/motion';
 
   export let progress = 52;
-  export let precision = 0;
+  // export let precision = 0;
   export let tweenDuration = 400;
   export let animate = true;
   export let labelInside = true;
@@ -28,7 +28,7 @@
     <div class="labelInsideClass">
       <div class="progressbar" style="width: {progressTweened}%; background-color: {color}">
         <span class="progress">
-          {progressTweened.toFixed(precision)}%
+          {progress}%
         </span>
       </div>
     </div>
@@ -36,7 +36,7 @@
     <div class="labelOutsideClass">
       <span class="labelTextOutside">{labelTextOutside}</span>
       <span class="progress">
-        {progressTweened.toFixed(precision)}%
+        {progress}%
       </span>
     </div>
     <div class="progressbar" style="width: {progressTweened}%; background-color: {color}; height: 10px;"></div>
