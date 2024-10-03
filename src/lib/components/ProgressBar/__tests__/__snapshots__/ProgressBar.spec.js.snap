@@ -1,3 +1,3 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Tests for ProgressBar > get a snapshot of component 1`] = `"<div class="garnet svelte-zsgscn"><div class="labelInsideClass svelte-zsgscn"><div class="progressbar svelte-zsgscn" style="width: 0%; background-color: rgb(115, 54, 53);"><span class="progress svelte-zsgscn">0%</span></div></div></div>"`;
+exports[`Tests for ProgressBar > get a snapshot of component 1`] = `"<div class="garnet-progressbar svelte-1uunq2y"><div class="labelInsideClass svelte-1uunq2y"><div class="progressbar svelte-1uunq2y" style="background-color: rgb(115, 54, 53);"><span class="progress svelte-1uunq2y">52%</span></div></div></div>"`;
