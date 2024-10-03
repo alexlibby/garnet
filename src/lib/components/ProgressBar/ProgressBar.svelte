@@ -4,8 +4,8 @@
   import { cubicOut } from 'svelte/easing';
   import { tweened } from 'svelte/motion';
 
-  export let progress = 52;
-  // export let precision = 0;
+  export let progressAmt = 52;
+  export let precision = 0;
   export let tweenDuration = 400;
   export let animate = true;
   export let labelInside = true;
@@ -13,12 +13,12 @@
   export let easing = cubicOut;
   export let color = '#733635';
   
-  const progressTweened = tweened(0, {
+  const progress = tweened(0, {
     duration: animate ? tweenDuration : 0,
     easing
   });
  
-  $: progressTweened.set(progress);
+  $: progress.set(Number(progressAmt));
 </script>
 
 <div class="garnet-progressbar">
@@ -26,21 +26,21 @@
   <!-- Adds label inside progressbar -->
   {#if labelInside}
     <div class="labelInsideClass">
-      <div class="progressbar" style="width: {progressTweened}%; background-color: {color}">
+      <div class="progressbar" style="width: {$progress}%; background-color: {color}">
         <span class="progress">
-          {progress}%
+          {$progress.toFixed(precision)}%
         </span>
       </div>
     </div>
   {:else}
-    <div class="labelOutsideClass">
-      <span class="labelTextOutside">{labelTextOutside}</span>
-      <span class="progress">
-        {progress}%
-      </span>
-    </div>
-    <div class="progressbar" style="width: {progressTweened}%; background-color: {color}; height: 10px;"></div>
-  {/if}
+  <div class="labelOutsideClass">
+    <span class="labelTextOutside">{labelTextOutside}</span>
+    <span class="progress">
+      {$progress.toFixed(precision)}%
+    </span>
+  </div>
+  <div class="progressbar" style="width: {$progress}%; background-color: {color}; height: 10px;"></div>
+{/if}
 </div>
 
 <style>
